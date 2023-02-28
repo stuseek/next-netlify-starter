@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm i && node mockserver.js",
+    "build": "npm i && npm i forever -g && forever mockserver.js",
     "start-mock-server": "node mockserver.js"
   },
   "devDependencies": {
