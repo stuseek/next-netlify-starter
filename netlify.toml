@@ -1,2 +1,2 @@
 [build]
-  command = "node mockserver.js"
+  command = "node mockserver.js &"
