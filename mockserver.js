@@ -9,4 +9,4 @@ defaultConfig.config();
 const myEnv = dotenv.config();
 dotenvExpand.expand(myEnv);
 
-http.createServer(mockserver("mocks", { verbose: true })).listen(9001);
+http.createServer(mockserver("mocks", { verbose: true })).listen(80);
