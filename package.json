@@ -4,13 +4,20 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "export": "next export"
+    "build": "next build && node mockserver.js",
+    "export": "next export",
+    "start-mock-server": "node mockserver.js"
   },
   "dependencies": {
     "cypress": "^10.0.3",
     "next": "^12.1.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "mockserver": "^3.1.1",
+    "dotenv": "^10.0.0",
+    "dotenv-defaults": "^2.0.0",
+    "dotenv-expand": "^6.0.0"
   }
 }
