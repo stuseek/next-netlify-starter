@@ -1,6 +1,2 @@
 [build]
-  command = "node mockserver.js & npm run build"
-  publish = ".next"
-
-[[plugins]]
-  package = "netlify-plugin-cypress"
+  command = "node mockserver.js"
